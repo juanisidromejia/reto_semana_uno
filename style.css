@@ -4,3 +4,10 @@ padding: 0;
 margin: 0;
 }
 
+
+ion-icon {
+
+
+    color: rgb(199, 40, 40);
+    font-size: 64px;
+}
