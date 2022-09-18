@@ -12,8 +12,10 @@ header{
 
 body{
     background-color: hsl(257, 40%, 49%);
-    background-image: url("./images/bg-desktop.svg");
+    
     padding-left: 25px;
+    background-repeat: no-repeat;
+   
     
     }
 
@@ -45,7 +47,12 @@ ion-icon {
         padding-top: 60px;
     }   
 
-    
+    body{
+     
+        background-image: url("./images/bg-desktop.svg");
+        
+        
+        }
 
     .socialbar{
         
@@ -134,5 +141,12 @@ ion-icon {
         
     
         }
+
+
+        body{
+           
+            background-image: url("./images/bg-mobile.svg");
+            
+            }
 
 }
