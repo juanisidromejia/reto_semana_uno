@@ -1,18 +1,138 @@
 *{
 
-padding: 0;
+padding:0;
 margin: 0;
 }
+
+
+header{
+
+    height: 100px;
+    }
 
 body{
     background-color: hsl(257, 40%, 49%);
     background-image: url("./images/bg-desktop.svg");
-}
+    padding-left: 25px;
+    
+    }
 
+header img{
+
+    padding-top: 30px;
+  
+    }
 
 ion-icon {
 
 
-    color: rgb(199, 40, 40);
-    font-size: 64px;
+    color:white ;
+    font-size: 28px;
+}
+
+@media (min-width: 768px)
+
+{
+
+
+    .container{
+
+        display: grid;
+        width: 90%;
+        height: 10%;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 60px;
+    }   
+
+    
+
+    .socialbar{
+        
+        margin-top: 100px;
+        
+    }
+    .message {
+        
+       
+        align-items: flex-start;
+        
+       
+    }
+}
+
+
+.container img{
+
+    width: 90%;
+    height: auto;
+}
+
+.container  h2 {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color :white;
+    padding-top: 30px;
+}
+
+.container p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 10px;
+}
+
+.container button {
+
+    background:white;
+    color: hsl(257, 40%, 49%);
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 20px;
+
+}
+
+.container button:hover {
+
+    background: papayawhip;
+}
+
+.container button:active {
+
+    background: green;
+    
+}
+
+
+@media (max-width: 767px)
+
+ {
+
+
+    .container img{
+
+     width: 80%;
+        height: auto;
+            }
+
+
+
+    .message {
+
+      width: 80%;
+      text-align: center;
+    
+   
+    }
+    .socialbar{
+        
+        margin-top: 80px;
+        
+    
+        }
+
 }
